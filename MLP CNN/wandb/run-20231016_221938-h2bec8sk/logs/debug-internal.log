@@ -1,0 +1,46 @@
+2023-10-16 22:19:47,443 INFO    StreamThr :97404 [internal.py:wandb_internal():86] W&B internal server running at pid: 97404, started at: 2023-10-16 22:19:47.442412
+2023-10-16 22:19:47,444 DEBUG   HandlerThread:97404 [handler.py:handle_request():146] handle_request: status
+2023-10-16 22:19:47,445 INFO    WriterThread:97404 [datastore.py:open_for_write():85] open: /Users/arygup/Desktop/A3/wandb/run-20231016_221938-h2bec8sk/run-h2bec8sk.wandb
+2023-10-16 22:19:47,447 DEBUG   SenderThread:97404 [sender.py:send():380] send: header
+2023-10-16 22:19:47,447 DEBUG   SenderThread:97404 [sender.py:send():380] send: run
+2023-10-16 22:19:48,405 INFO    SenderThread:97404 [dir_watcher.py:__init__():211] watching files in: /Users/arygup/Desktop/A3/wandb/run-20231016_221938-h2bec8sk/files
+2023-10-16 22:19:48,405 INFO    SenderThread:97404 [sender.py:_start_run_threads():1122] run started: h2bec8sk with start time 1697474986.583918
+2023-10-16 22:19:48,418 DEBUG   HandlerThread:97404 [handler.py:handle_request():146] handle_request: check_version
+2023-10-16 22:19:48,418 DEBUG   SenderThread:97404 [sender.py:send_request():407] send_request: check_version
+2023-10-16 22:19:48,598 DEBUG   HandlerThread:97404 [handler.py:handle_request():146] handle_request: run_start
+2023-10-16 22:19:48,600 DEBUG   HandlerThread:97404 [system_info.py:__init__():32] System info init
+2023-10-16 22:19:48,600 DEBUG   HandlerThread:97404 [system_info.py:__init__():47] System info init done
+2023-10-16 22:19:48,600 INFO    HandlerThread:97404 [system_monitor.py:start():194] Starting system monitor
+2023-10-16 22:19:48,600 INFO    SystemMonitor:97404 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-16 22:19:48,600 INFO    HandlerThread:97404 [system_monitor.py:probe():214] Collecting system info
+2023-10-16 22:19:48,601 INFO    SystemMonitor:97404 [interfaces.py:start():190] Started cpu monitoring
+2023-10-16 22:19:48,601 DEBUG   HandlerThread:97404 [system_info.py:probe():196] Probing system
+2023-10-16 22:19:48,603 INFO    SystemMonitor:97404 [interfaces.py:start():190] Started disk monitoring
+2023-10-16 22:19:48,603 INFO    SystemMonitor:97404 [interfaces.py:start():190] Started gpuapple monitoring
+2023-10-16 22:19:48,608 INFO    SystemMonitor:97404 [interfaces.py:start():190] Started memory monitoring
+2023-10-16 22:19:48,609 INFO    SystemMonitor:97404 [interfaces.py:start():190] Started network monitoring
+2023-10-16 22:19:48,610 DEBUG   HandlerThread:97404 [gitlib.py:_init_repo():53] git repository is invalid
+2023-10-16 22:19:48,610 DEBUG   HandlerThread:97404 [system_info.py:probe():244] Probing system done
+2023-10-16 22:19:48,610 DEBUG   HandlerThread:97404 [system_monitor.py:probe():223] {'os': 'macOS-13.4.1-arm64-arm-64bit', 'python': '3.11.5', 'heartbeatAt': '2023-10-16T16:49:48.603408', 'startedAt': '2023-10-16T16:49:38.996521', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'Aryans-MacBook-Air.local', 'username': 'arygup', 'executable': '/Users/arygup/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 228.27386474609375, 'used': 164.98604202270508}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2023-10-16 22:19:48,610 INFO    HandlerThread:97404 [system_monitor.py:probe():224] Finished collecting system info
+2023-10-16 22:19:48,610 INFO    HandlerThread:97404 [system_monitor.py:probe():227] Publishing system info
+2023-10-16 22:19:48,610 DEBUG   HandlerThread:97404 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-16 22:19:48,611 DEBUG   HandlerThread:97404 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-16 22:19:48,611 DEBUG   HandlerThread:97404 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-16 22:19:49,410 INFO    Thread-49 :97404 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arygup/Desktop/A3/wandb/run-20231016_221938-h2bec8sk/files/requirements.txt
+2023-10-16 22:19:49,410 INFO    Thread-49 :97404 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arygup/Desktop/A3/wandb/run-20231016_221938-h2bec8sk/files/conda-environment.yaml
+2023-10-16 22:19:51,731 DEBUG   HandlerThread:97404 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-16 22:19:51,732 INFO    HandlerThread:97404 [system_monitor.py:probe():229] Finished publishing system info
+2023-10-16 22:19:51,732 DEBUG   SenderThread:97404 [sender.py:send():380] send: files
+2023-10-16 22:19:51,732 INFO    SenderThread:97404 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-16 22:19:51,738 DEBUG   HandlerThread:97404 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 22:19:51,738 DEBUG   SenderThread:97404 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 22:19:51,738 DEBUG   HandlerThread:97404 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 22:19:52,129 DEBUG   SenderThread:97404 [sender.py:send():380] send: telemetry
+2023-10-16 22:19:52,129 DEBUG   SenderThread:97404 [sender.py:send():380] send: telemetry
+2023-10-16 22:19:52,129 DEBUG   SenderThread:97404 [sender.py:send():380] send: config
+2023-10-16 22:19:52,425 INFO    Thread-49 :97404 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arygup/Desktop/A3/wandb/run-20231016_221938-h2bec8sk/files/conda-environment.yaml
+2023-10-16 22:19:52,425 INFO    Thread-49 :97404 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arygup/Desktop/A3/wandb/run-20231016_221938-h2bec8sk/files/wandb-metadata.json
+2023-10-16 22:19:52,905 INFO    wandb-upload_0:97404 [upload_job.py:push():131] Uploaded file /var/folders/vm/wmkh255j12x_ylgv2g4ltlhr0000gn/T/tmpyvxlc8xkwandb/0yy28kbu-wandb-metadata.json
+2023-10-16 22:19:53,134 DEBUG   HandlerThread:97404 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:19:58,156 DEBUG   HandlerThread:97404 [handler.py:handle_request():146] handle_request: status_report

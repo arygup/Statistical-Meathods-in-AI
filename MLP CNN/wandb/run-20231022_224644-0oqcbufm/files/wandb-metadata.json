@@ -1,0 +1,36 @@
+{
+    "os": "macOS-13.4.1-arm64-arm-64bit",
+    "python": "3.11.5",
+    "heartbeatAt": "2023-10-22T17:16:51.921273",
+    "startedAt": "2023-10-22T17:16:44.631427",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-arygup.git",
+        "commit": "1f070650c04879b3c9163d7fad373bbbfc9d9885"
+    },
+    "email": "aryan.g@research.iiit.ac.in",
+    "root": "/Users/arygup/Documents/GitHub/assignment-3-arygup",
+    "host": "Aryans-MacBook-Air.local",
+    "username": "arygup",
+    "executable": "/Users/arygup/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 168.32865142822266
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

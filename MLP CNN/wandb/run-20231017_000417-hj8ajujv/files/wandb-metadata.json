@@ -1,0 +1,30 @@
+{
+    "os": "macOS-13.4.1-arm64-arm-64bit",
+    "python": "3.11.5",
+    "heartbeatAt": "2023-10-16T18:34:24.595746",
+    "startedAt": "2023-10-16T18:34:17.825175",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "Aryans-MacBook-Air.local",
+    "username": "arygup",
+    "executable": "/Users/arygup/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 165.04369735717773
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

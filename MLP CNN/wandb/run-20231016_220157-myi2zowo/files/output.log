@@ -1,0 +1,2 @@
+
+tensor([1.], device='mps:0')

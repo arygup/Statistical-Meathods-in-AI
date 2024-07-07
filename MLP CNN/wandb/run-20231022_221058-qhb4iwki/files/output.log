@@ -1,0 +1,5 @@
+/var/folders/vm/wmkh255j12x_ylgv2g4ltlhr0000gn/T/ipykernel_40451/2785854769.py:18: RuntimeWarning: overflow encountered in exp
+  pos_exp = np.exp(x)
+/var/folders/vm/wmkh255j12x_ylgv2g4ltlhr0000gn/T/ipykernel_40451/2785854769.py:20: RuntimeWarning: invalid value encountered in divide
+  return (pos_exp - neg_exp) / (pos_exp + neg_exp)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)

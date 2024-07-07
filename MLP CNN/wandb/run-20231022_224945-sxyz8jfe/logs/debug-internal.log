@@ -1,0 +1,19 @@
+2023-10-22 22:49:50,490 INFO    StreamThr :42125 [internal.py:wandb_internal():86] W&B internal server running at pid: 42125, started at: 2023-10-22 22:49:50.489824
+2023-10-22 22:49:50,492 DEBUG   HandlerThread:42125 [handler.py:handle_request():146] handle_request: status
+2023-10-22 22:49:50,492 INFO    WriterThread:42125 [datastore.py:open_for_write():85] open: /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/run-20231022_224945-sxyz8jfe/run-sxyz8jfe.wandb
+2023-10-22 22:49:50,494 DEBUG   SenderThread:42125 [sender.py:send():380] send: header
+2023-10-22 22:49:50,494 DEBUG   SenderThread:42125 [sender.py:send():380] send: run
+2023-10-22 22:49:51,228 INFO    SenderThread:42125 [dir_watcher.py:__init__():211] watching files in: /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/run-20231022_224945-sxyz8jfe/files
+2023-10-22 22:49:51,228 INFO    SenderThread:42125 [sender.py:_start_run_threads():1122] run started: sxyz8jfe with start time 1697995189.630728
+2023-10-22 22:49:56,250 DEBUG   HandlerThread:42125 [handler.py:handle_request():146] handle_request: status_report
+2023-10-22 22:50:01,274 DEBUG   HandlerThread:42125 [handler.py:handle_request():146] handle_request: status_report
+2023-10-22 22:50:06,293 DEBUG   HandlerThread:42125 [handler.py:handle_request():146] handle_request: status_report
+2023-10-22 22:50:11,317 DEBUG   HandlerThread:42125 [handler.py:handle_request():146] handle_request: status_report
+2023-10-22 22:50:16,339 DEBUG   HandlerThread:42125 [handler.py:handle_request():146] handle_request: status_report
+2023-10-22 22:50:21,362 DEBUG   HandlerThread:42125 [handler.py:handle_request():146] handle_request: status_report
+2023-10-22 22:50:26,380 DEBUG   HandlerThread:42125 [handler.py:handle_request():146] handle_request: status_report
+2023-10-22 22:50:31,405 DEBUG   HandlerThread:42125 [handler.py:handle_request():146] handle_request: status_report
+2023-10-22 22:50:36,421 DEBUG   HandlerThread:42125 [handler.py:handle_request():146] handle_request: status_report
+2023-10-22 22:50:41,439 DEBUG   HandlerThread:42125 [handler.py:handle_request():146] handle_request: status_report
+2023-10-22 22:50:46,460 DEBUG   HandlerThread:42125 [handler.py:handle_request():146] handle_request: status_report
+2023-10-22 22:50:51,479 DEBUG   HandlerThread:42125 [handler.py:handle_request():146] handle_request: status_report

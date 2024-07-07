@@ -1,0 +1,46 @@
+wandb_version: 1
+
+learning_rate:
+  desc: null
+  value: 0.01
+activation:
+  desc: null
+  value: sigmoid
+hidden_layer:
+  desc: null
+  value:
+  - 10
+  - 15
+  - 10
+Optimizer:
+  desc: null
+  value: SGD
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.5
+    cli_version: 0.15.12
+    framework: sklearn
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1697994162.122141
+    t:
+      1:
+      - 5
+      - 53
+      - 55
+      2:
+      - 5
+      - 53
+      - 55
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.11.5
+      5: 0.15.12
+      8:
+      - 1
+      - 4
+      - 5
+      13: darwin-arm64

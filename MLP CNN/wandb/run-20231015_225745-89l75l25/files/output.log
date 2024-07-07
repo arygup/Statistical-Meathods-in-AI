@@ -1,0 +1,60 @@
+
+Loss: 1.7879, Accuracy: 0.2867
+Loss: 1.7879, Accuracy: 0.2867
+Loss: 1.7879, Accuracy: 0.2867
+Loss: 1.7879, Accuracy: 0.2867
+Loss: 1.7879, Accuracy: 0.2867
+Loss: 1.7879, Accuracy: 0.2867
+              precision    recall  f1-score   support
+           0       0.00      0.00      0.00         1
+           1       0.00      0.00      0.00        11
+           2       0.55      0.77      0.64       142
+           3       0.52      0.51      0.51       146
+           4       0.50      0.05      0.09        39
+           5       0.00      0.00      0.00         4
+    accuracy                           0.54       343
+   macro avg       0.26      0.22      0.21       343
+weighted avg       0.51      0.54      0.50       343
+Loss: 1.7879, Accuracy: 0.2867
+              precision    recall  f1-score   support
+           0       0.00      0.00      0.00         1
+           1       0.00      0.00      0.00        11
+           2       0.55      0.77      0.64       142
+           3       0.52      0.51      0.51       146
+           4       0.50      0.05      0.09        39
+           5       0.00      0.00      0.00         4
+    accuracy                           0.54       343
+   macro avg       0.26      0.22      0.21       343
+weighted avg       0.51      0.54      0.50       343
+Loss: 1.7879, Accuracy: 0.2867
+              precision    recall  f1-score   support
+           0       0.00      0.00      0.00         1
+           1       0.00      0.00      0.00        11
+           2       0.55      0.77      0.64       142
+           3       0.52      0.51      0.51       146
+           4       0.50      0.05      0.09        39
+           5       0.00      0.00      0.00         4
+    accuracy                           0.54       343
+   macro avg       0.26      0.22      0.21       343
+weighted avg       0.51      0.54      0.50       343
+Loss: 1.7532, Accuracy: 0.2867
+              precision    recall  f1-score   support
+           0       0.00      0.00      0.00         1
+           1       0.00      0.00      0.00        11
+           2       0.55      0.77      0.64       142
+           3       0.52      0.51      0.51       146
+           4       0.50      0.05      0.09        39
+           5       0.00      0.00      0.00         4
+    accuracy                           0.54       343
+   macro avg       0.26      0.22      0.21       343
+weighted avg       0.51      0.54      0.50       343
+Loss: 1.7879, Accuracy: 0.2867
+              precision    recall  f1-score   support
+           0       0.00      0.00      0.00         1
+           1       0.00      0.00      0.00        11
+           2       0.55      0.77      0.64       142
+           3       0.52      0.51      0.51       146
+           4       0.50      0.05      0.09        39
+           5       0.00      0.00      0.00         4
+    accuracy                           0.54       343
+   macro avg       0.26      0.22      0.21       343

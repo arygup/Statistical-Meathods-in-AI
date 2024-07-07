@@ -1,0 +1,60 @@
+2023-10-22 22:49:23,226 INFO    MainThread:42117 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-22 22:49:23,227 INFO    MainThread:42117 [wandb_setup.py:_flush():76] Configure stats pid to 42117
+2023-10-22 22:49:23,227 INFO    MainThread:42117 [wandb_setup.py:_flush():76] Loading settings from /Users/arygup/.config/wandb/settings
+2023-10-22 22:49:23,227 INFO    MainThread:42117 [wandb_setup.py:_flush():76] Loading settings from /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/settings
+2023-10-22 22:49:23,227 INFO    MainThread:42117 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-10-22 22:49:23,227 INFO    MainThread:42117 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-22 22:49:23,227 INFO    MainThread:42117 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-22 22:49:23,227 INFO    MainThread:42117 [wandb_init.py:_log_setup():528] Logging user logs to /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/run-20231022_224923-1htgkggp/logs/debug.log
+2023-10-22 22:49:23,227 INFO    MainThread:42117 [wandb_init.py:_log_setup():529] Logging internal logs to /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/run-20231022_224923-1htgkggp/logs/debug-internal.log
+2023-10-22 22:49:23,227 INFO    MainThread:42117 [wandb_init.py:init():568] calling init triggers
+2023-10-22 22:49:23,227 INFO    MainThread:42117 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'activation': 'tanh', 'hidden_layer': [10, 15], 'Optimizer': 'SGD'}
+2023-10-22 22:49:23,227 INFO    MainThread:42117 [wandb_init.py:init():593] re-initializing run, found existing run on stack: psqig9i9
+2023-10-22 22:49:23,228 INFO    MainThread:42117 [wandb_run.py:_finish():1934] finishing run smaia3/Ques3/psqig9i9
+2023-10-22 22:49:23,228 INFO    MainThread:42117 [jupyter.py:save_history():445] not saving jupyter history
+2023-10-22 22:49:23,228 INFO    MainThread:42117 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-10-22 22:49:23,228 INFO    MainThread:42117 [wandb_init.py:_jupyter_teardown():456] cleaning up jupyter logic
+2023-10-22 22:49:23,228 INFO    MainThread:42117 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-22 22:49:23,228 INFO    MainThread:42117 [wandb_run.py:_restore():2151] restore
+2023-10-22 22:49:23,228 INFO    MainThread:42117 [wandb_run.py:_restore():2157] restore done
+2023-10-22 22:49:27,526 INFO    MainThread:42117 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-22 22:49:27,526 INFO    MainThread:42117 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-22 22:49:27,529 INFO    MainThread:42117 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-10-22 22:49:27,801 INFO    MainThread:42117 [wandb_init.py:init():618] starting backend
+2023-10-22 22:49:27,801 INFO    MainThread:42117 [wandb_init.py:init():622] setting up manager
+2023-10-22 22:49:27,804 INFO    MainThread:42117 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-10-22 22:49:27,804 INFO    MainThread:42117 [wandb_init.py:init():628] backend started and connected
+2023-10-22 22:49:27,816 INFO    MainThread:42117 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-10-22 22:49:27,816 INFO    MainThread:42117 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-10-22 22:49:27,816 INFO    MainThread:42117 [wandb_init.py:init():720] updated telemetry
+2023-10-22 22:49:27,833 INFO    MainThread:42117 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-22 22:49:29,278 INFO    MainThread:42117 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-22 22:49:29,416 INFO    MainThread:42117 [wandb_run.py:_on_init():2229] got version response 
+2023-10-22 22:49:29,416 INFO    MainThread:42117 [wandb_init.py:init():804] starting run threads in backend
+2023-10-22 22:49:32,530 INFO    MainThread:42117 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-22 22:49:32,530 INFO    MainThread:42117 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-22 22:49:32,530 INFO    MainThread:42117 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-22 22:49:32,530 INFO    MainThread:42117 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-22 22:49:32,531 INFO    MainThread:42117 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-22 22:49:45,815 INFO    MainThread:42117 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-22 22:49:45,816 INFO    MainThread:42117 [wandb_setup.py:_flush():76] Configure stats pid to 42117
+2023-10-22 22:49:45,816 INFO    MainThread:42117 [wandb_setup.py:_flush():76] Loading settings from /Users/arygup/.config/wandb/settings
+2023-10-22 22:49:45,816 INFO    MainThread:42117 [wandb_setup.py:_flush():76] Loading settings from /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/settings
+2023-10-22 22:49:45,816 INFO    MainThread:42117 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-10-22 22:49:45,816 INFO    MainThread:42117 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-22 22:49:45,816 INFO    MainThread:42117 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-10-22 22:49:45,816 INFO    MainThread:42117 [wandb_init.py:_log_setup():528] Logging user logs to /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/run-20231022_224945-sxyz8jfe/logs/debug.log
+2023-10-22 22:49:45,816 INFO    MainThread:42117 [wandb_init.py:_log_setup():529] Logging internal logs to /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/run-20231022_224945-sxyz8jfe/logs/debug-internal.log
+2023-10-22 22:49:45,816 INFO    MainThread:42117 [wandb_init.py:_jupyter_setup():474] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x153037190>
+2023-10-22 22:49:45,816 INFO    MainThread:42117 [wandb_init.py:init():568] calling init triggers
+2023-10-22 22:49:45,816 INFO    MainThread:42117 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'activation': 'tanh', 'hidden_layer': [10, 15, 10], 'Optimizer': 'SGD'}
+2023-10-22 22:49:45,816 INFO    MainThread:42117 [wandb_init.py:init():593] re-initializing run, found existing run on stack: 1htgkggp
+2023-10-22 22:49:45,817 INFO    MainThread:42117 [wandb_run.py:_finish():1934] finishing run smaia3/Ques3/1htgkggp
+2023-10-22 22:49:45,817 INFO    MainThread:42117 [wandb_run.py:_atexit_cleanup():2168] got exitcode: 0
+2023-10-22 22:49:45,817 INFO    MainThread:42117 [wandb_run.py:_restore():2151] restore
+2023-10-22 22:49:45,817 INFO    MainThread:42117 [wandb_run.py:_restore():2157] restore done
+2023-10-22 22:49:49,479 INFO    MainThread:42117 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-10-22 22:49:49,480 INFO    MainThread:42117 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-10-22 22:49:49,483 INFO    MainThread:42117 [wandb_run.py:_footer_sync_info():3558] logging synced files

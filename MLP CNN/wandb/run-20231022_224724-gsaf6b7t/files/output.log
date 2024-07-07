@@ -1,0 +1,4 @@
+/var/folders/vm/wmkh255j12x_ylgv2g4ltlhr0000gn/T/ipykernel_41692/307467909.py:18: RuntimeWarning: overflow encountered in exp
+  exp_x = np.exp(2 * x)
+/var/folders/vm/wmkh255j12x_ylgv2g4ltlhr0000gn/T/ipykernel_41692/307467909.py:19: RuntimeWarning: invalid value encountered in divide
+  tanh_x = (exp_x - 1) / (exp_x + 1)

@@ -1,0 +1,2 @@
+/var/folders/vm/wmkh255j12x_ylgv2g4ltlhr0000gn/T/ipykernel_40451/3229554153.py:59: RuntimeWarning: invalid value encountered in multiply
+  delta = np.dot(deltas[-1], self.weights[i].T) * self.sigmoid_derivative(self.layer_outputs[i])

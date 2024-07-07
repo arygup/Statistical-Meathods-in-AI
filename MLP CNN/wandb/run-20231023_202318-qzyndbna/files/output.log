@@ -1,0 +1,302 @@
+Classification Report:
+                                                     precision    recall  f1-score   support
+                                            beauty       0.00      0.00      0.00         4
+                                      beauty books       0.00      0.00      0.00         1
+                                   beauty clothing       0.00      0.00      0.00         2
+                              beauty clothing food       0.00      0.00      0.00         2
+                              beauty clothing home       0.00      0.00      0.00         1
+                                beauty electronics       0.00      0.00      0.00         1
+                          beauty electronics books       0.00      0.00      0.00         1
+                       beauty electronics clothing       0.00      0.00      0.00         2
+                      beauty electronics food home       0.00      0.00      0.00         1
+                      beauty electronics furniture       0.00      0.00      0.00         1
+                           beauty electronics home       0.00      0.00      0.00         1
+                   beauty electronics sports books       0.00      0.00      0.00         1
+                            beauty food home books       0.00      0.00      0.00         1
+                          beauty food sports books       0.00      0.00      0.00         1
+                                  beauty furniture       0.00      0.00      0.00         1
+                            beauty furniture books       0.00      0.00      0.00         1
+                         beauty furniture clothing       0.00      0.00      0.00         1
+             beauty furniture clothing home sports       0.00      0.00      0.00         1
+                                       beauty home       0.00      0.00      0.00         3
+                                beauty home sports       0.00      0.00      0.00         1
+                                     beauty sports       0.00      0.00      0.00         1
+                                             books       0.00      0.00      0.00         1
+                                      books beauty       0.00      0.00      0.00         2
+                                    books clothing       0.00      0.00      0.00         1
+                               books clothing home       0.00      0.00      0.00         1
+                             books clothing sports       0.00      0.00      0.00         2
+                                 books electronics       0.00      0.00      0.00         1
+                            books electronics food       0.00      0.00      0.00         1
+         books electronics food home sports beauty       0.00      0.00      0.00         1
+books electronics furniture clothing sports beauty       0.00      0.00      0.00         1
+                                 books food beauty       0.00      0.00      0.00         1
+                                   books furniture       0.00      0.00      0.00         2
+                            books furniture beauty       0.00      0.00      0.00         0
+                       books furniture food sports       0.00      0.00      0.00         1
+                     books furniture sports beauty       0.00      0.00      0.00         1
+                                        books home       0.00      0.00      0.00         5
+                                      books sports       0.00      0.00      0.00         2
+                                          clothing       0.00      0.00      0.00         5
+                                   clothing beauty       0.00      0.00      0.00         1
+                                    clothing books       0.00      0.00      0.00         1
+                              clothing electronics       0.00      0.00      0.00         1
+                       clothing electronics beauty       0.00      0.00      0.00         1
+                  clothing electronics home beauty       0.00      0.00      0.00         1
+                                     clothing food       0.00      0.00      0.00         1
+                                clothing food home       0.00      0.00      0.00         1
+                         clothing furniture beauty       0.00      0.00      0.00         2
+                           clothing furniture food       0.00      0.00      0.00         2
+                           clothing furniture home       0.00      0.00      0.00         1
+                    clothing furniture home sports       0.00      0.00      0.00         1
+                                     clothing home       0.00      0.00      0.00         1
+                               clothing home books       0.00      0.00      0.00         1
+                                   clothing sports       0.00      0.00      0.00         2
+                            clothing sports beauty       0.00      0.00      0.00         1
+                                       electronics       0.00      0.00      0.00         4
+                                electronics beauty       0.00      0.00      0.00         1
+                                 electronics books       0.00      0.00      0.00         1
+                              electronics clothing       0.00      0.00      0.00         1
+                 electronics clothing beauty books       0.00      0.00      0.00         1
+           electronics clothing home sports beauty       0.01      1.00      0.03         1
+                       electronics clothing sports       0.00      0.00      0.00         1
+                 electronics clothing sports books       0.00      0.00      0.00         1
+                                  electronics food       0.00      0.00      0.00         1
+                      electronics food home beauty       0.00      0.00      0.00         1
+                       electronics furniture books       0.00      0.00      0.00         2
+              electronics furniture clothing books       0.00      0.00      0.00         1
+         electronics furniture clothing food books       0.00      0.00      0.00         1
+                                  electronics home       0.00      0.00      0.00         1
+                     electronics home sports books       0.00      0.00      0.00         1
+                                electronics sports       0.00      0.00      0.00         1
+                          electronics sports books       0.00      0.00      0.00         1
+                                              food       0.00      0.00      0.00         2
+                                        food books       0.00      0.00      0.00         1
+                                     food clothing       0.00      0.00      0.00         2
+                                food clothing home       0.00      0.00      0.00         0
+                         food clothing home beauty       0.00      0.00      0.00         1
+                         food clothing home sports       0.00      0.00      0.00         1
+                            food electronics books       0.00      0.00      0.00         1
+                         food electronics clothing       0.00      0.00      0.00         1
+                        food electronics furniture       0.00      0.00      0.00         1
+                             food electronics home       0.00      0.00      0.00         2
+                           food electronics sports       0.00      0.00      0.00         2
+                                    food furniture       0.00      0.00      0.00         3
+                             food furniture beauty       0.00      0.00      0.00         1
+                    food furniture clothing beauty       0.00      0.00      0.00         1
+                             food furniture sports       0.00      0.00      0.00         1
+                                         food home       0.00      0.00      0.00         2
+                                  food home beauty       0.00      0.00      0.00         1
+                                       food sports       0.00      0.00      0.00         2
+                                 food sports books       0.00      0.00      0.00         1
+                                         furniture       0.00      0.00      0.00         3
+                                   furniture books       0.00      0.00      0.00         2
+               furniture clothing food home beauty       0.00      0.00      0.00         1
+                           furniture clothing home       0.00      0.00      0.00         1
+                         furniture clothing sports       0.00      0.00      0.00         1
+                             furniture electronics       0.00      0.00      0.00         2
+                      furniture electronics beauty       0.00      0.00      0.00         1
+                furniture electronics beauty books       0.00      0.00      0.00         1
+                       furniture electronics books       0.00      0.00      0.00         1
+                        furniture electronics food       0.00      0.00      0.00         1
+                        furniture electronics home       0.00      0.00      0.00         2
+                      furniture electronics sports       0.00      0.00      0.00         1
+                                    furniture food       0.00      0.00      0.00         2
+                               furniture food home       0.00      0.00      0.00         1
+                             furniture food sports       0.00      0.00      0.00         1
+                              furniture home books       0.00      0.00      0.00         1
+                             furniture home sports       0.00      0.00      0.00         1
+                      furniture home sports beauty       0.00      0.00      0.00         1
+                                  furniture sports       0.00      0.00      0.00         1
+                           furniture sports beauty       0.00      0.00      0.00         1
+                            furniture sports books       0.00      0.00      0.00         1
+                                              home       0.00      0.00      0.00         2
+                                 home beauty books       0.00      0.00      0.00         1
+                                        home books       0.00      0.00      0.00         1
+                                     home clothing       0.00      0.00      0.00         1
+                              home clothing beauty       0.00      0.00      0.00         2
+            home clothing food sports beauty books       0.00      0.00      0.00         1
+                                  home electronics       0.00      0.00      0.00         1
+                           home electronics beauty       0.00      0.00      0.00         1
+                   home electronics clothing books       0.00      0.00      0.00         1
+                        home electronics furniture       0.00      0.00      0.00         1
+           home electronics furniture beauty books       0.00      0.00      0.00         1
+                  home electronics furniture books       0.00      0.00      0.00         1
+                    home electronics sports beauty       0.00      0.00      0.00         1
+              home electronics sports beauty books       0.00      0.00      0.00         1
+                                         home food       0.00      0.00      0.00         1
+                                   home food books       0.00      0.00      0.00         1
+                              home furniture books       0.00      0.00      0.00         1
+                               home furniture food       0.00      0.00      0.00         1
+                        home furniture food beauty       0.00      0.00      0.00         1
+                                       home sports       0.00      0.00      0.00         1
+                                home sports beauty       0.00      0.00      0.00         1
+                          home sports beauty books       0.00      0.00      0.00         1
+                                            sports       0.00      0.00      0.00         6
+                                      sports books       0.00      0.00      0.00         4
+                                   sports clothing       0.00      0.00      0.00         1
+                              sports clothing food       0.00      0.00      0.00         2
+                        sports clothing food books       0.00      0.00      0.00         1
+                                sports electronics       0.00      0.00      0.00         2
+                    sports electronics food beauty       0.00      0.00      0.00         1
+                                       sports food       0.00      0.00      0.00         2
+                                  sports furniture       0.00      0.00      0.00         1
+                     sports furniture beauty books       0.00      0.00      0.00         1
+             sports furniture clothing home beauty       0.00      0.00      0.00         1
+                             sports furniture home       0.00      0.00      0.00         2
+                       sports furniture home books       0.00      0.00      0.00         1
+                                       sports home       0.00      0.00      0.00         2
+                                          accuracy                           0.01       200
+                                         macro avg       0.00      0.01      0.00       200
+                                      weighted avg       0.00      0.01      0.00       200
+Classification Report:
+                                                     precision    recall  f1-score   support
+                                            beauty       0.00      0.00      0.00         4
+                                      beauty books       0.00      0.00      0.00         1
+                                   beauty clothing       0.00      0.00      0.00         2
+                              beauty clothing food       0.00      0.00      0.00         2
+                              beauty clothing home       0.00      0.00      0.00         1
+                                beauty electronics       0.00      0.00      0.00         1
+                          beauty electronics books       0.00      0.00      0.00         1
+                       beauty electronics clothing       0.00      0.00      0.00         2
+                      beauty electronics food home       0.00      0.00      0.00         1
+                      beauty electronics furniture       0.00      0.00      0.00         1
+                           beauty electronics home       0.00      0.00      0.00         1
+                   beauty electronics sports books       0.00      0.00      0.00         1
+                            beauty food home books       0.00      0.00      0.00         1
+                          beauty food sports books       0.00      0.00      0.00         1
+                                  beauty furniture       0.00      0.00      0.00         1
+                            beauty furniture books       0.00      0.00      0.00         1
+                         beauty furniture clothing       0.00      0.00      0.00         1
+             beauty furniture clothing home sports       0.00      0.00      0.00         1
+                                       beauty home       0.00      0.00      0.00         3
+                                beauty home sports       0.00      0.00      0.00         1
+                                     beauty sports       0.00      0.00      0.00         1
+                                             books       0.00      0.00      0.00         1
+                                      books beauty       0.00      0.00      0.00         2
+                                    books clothing       0.00      0.00      0.00         1
+                               books clothing home       0.00      0.00      0.00         1
+                             books clothing sports       0.00      0.00      0.00         2
+                                 books electronics       0.00      0.00      0.00         1
+                            books electronics food       0.00      0.00      0.00         1
+         books electronics food home sports beauty       0.00      0.00      0.00         1
+books electronics furniture clothing sports beauty       0.00      0.00      0.00         1
+                                 books food beauty       0.00      0.00      0.00         1
+                                   books furniture       0.00      0.00      0.00         2
+                       books furniture food sports       0.00      0.00      0.00         1
+                     books furniture sports beauty       0.00      0.00      0.00         1
+                                        books home       0.00      0.00      0.00         5
+                                      books sports       0.00      0.00      0.00         2
+                                          clothing       0.02      0.80      0.04         5
+                                   clothing beauty       0.00      0.00      0.00         1
+                                    clothing books       0.00      0.00      0.00         1
+                              clothing electronics       0.00      0.00      0.00         1
+                       clothing electronics beauty       0.00      0.00      0.00         1
+                  clothing electronics home beauty       0.00      0.00      0.00         1
+                                     clothing food       0.00      0.00      0.00         1
+                                clothing food home       0.00      0.00      0.00         1
+                         clothing furniture beauty       0.00      0.00      0.00         2
+                           clothing furniture food       0.00      0.00      0.00         2
+                           clothing furniture home       0.00      0.00      0.00         1
+                    clothing furniture home sports       0.00      0.00      0.00         1
+                                     clothing home       0.00      0.00      0.00         1
+                               clothing home books       0.00      0.00      0.00         1
+                                   clothing sports       0.00      0.00      0.00         2
+                            clothing sports beauty       0.00      0.00      0.00         1
+                                       electronics       0.00      0.00      0.00         4
+                                electronics beauty       0.00      0.00      0.00         1
+                                 electronics books       0.00      0.00      0.00         1
+                              electronics clothing       0.00      0.00      0.00         1
+                 electronics clothing beauty books       0.00      0.00      0.00         1
+                  electronics clothing home sports       0.00      0.00      0.00         0
+           electronics clothing home sports beauty       0.00      0.00      0.00         1
+                       electronics clothing sports       0.00      0.00      0.00         1
+                 electronics clothing sports books       0.00      0.00      0.00         1
+                                  electronics food       0.00      0.00      0.00         1
+                      electronics food home beauty       0.00      0.00      0.00         1
+                       electronics furniture books       0.00      0.00      0.00         2
+              electronics furniture clothing books       0.00      0.00      0.00         1
+         electronics furniture clothing food books       0.00      0.00      0.00         1
+                                  electronics home       0.00      0.00      0.00         1
+                     electronics home sports books       0.00      0.00      0.00         1
+                                electronics sports       0.00      0.00      0.00         1
+                          electronics sports books       0.00      0.00      0.00         1
+                                              food       0.00      0.00      0.00         2
+                                        food books       0.00      0.00      0.00         1
+                                     food clothing       0.00      0.00      0.00         2
+                         food clothing home beauty       0.00      0.00      0.00         1
+                         food clothing home sports       0.00      0.00      0.00         1
+                            food electronics books       0.00      0.00      0.00         1
+                         food electronics clothing       0.00      0.00      0.00         1
+                        food electronics furniture       0.00      0.00      0.00         1
+                             food electronics home       0.00      0.00      0.00         2
+                           food electronics sports       0.00      0.00      0.00         2
+                                    food furniture       0.00      0.00      0.00         3
+                             food furniture beauty       0.00      0.00      0.00         1
+                    food furniture clothing beauty       0.00      0.00      0.00         1
+                             food furniture sports       0.00      0.00      0.00         1
+                                         food home       0.00      0.00      0.00         2
+                                  food home beauty       0.00      0.00      0.00         1
+                                       food sports       0.00      0.00      0.00         2
+                                 food sports books       0.00      0.00      0.00         1
+                                         furniture       0.00      0.00      0.00         3
+                                   furniture books       0.00      0.00      0.00         2
+               furniture clothing food home beauty       0.00      0.00      0.00         1
+                           furniture clothing home       0.00      0.00      0.00         1
+                         furniture clothing sports       0.00      0.00      0.00         1
+                             furniture electronics       0.00      0.00      0.00         2
+                      furniture electronics beauty       0.00      0.00      0.00         1
+                furniture electronics beauty books       0.00      0.00      0.00         1
+                       furniture electronics books       0.00      0.00      0.00         1
+                        furniture electronics food       0.00      0.00      0.00         1
+                        furniture electronics home       0.00      0.00      0.00         2
+                      furniture electronics sports       0.00      0.00      0.00         1
+                                    furniture food       0.00      0.00      0.00         2
+                               furniture food home       0.00      0.00      0.00         1
+                             furniture food sports       0.00      0.00      0.00         1
+                       furniture food sports books       0.00      0.00      0.00         0
+                              furniture home books       0.00      0.00      0.00         1
+                             furniture home sports       0.00      0.00      0.00         1
+                      furniture home sports beauty       0.00      0.00      0.00         1
+                                  furniture sports       0.00      0.00      0.00         1
+                           furniture sports beauty       0.00      0.00      0.00         1
+                            furniture sports books       0.00      0.00      0.00         1
+                                              home       0.00      0.00      0.00         2
+                                       home beauty       0.00      0.00      0.00         0
+                                 home beauty books       0.00      0.00      0.00         1
+                                        home books       0.00      0.00      0.00         1
+                                     home clothing       0.00      0.00      0.00         1
+                              home clothing beauty       0.00      0.00      0.00         2
+            home clothing food sports beauty books       0.00      0.00      0.00         1
+                                  home electronics       0.00      0.00      0.00         1
+                           home electronics beauty       0.00      0.00      0.00         1
+                   home electronics clothing books       0.00      0.00      0.00         1
+                        home electronics furniture       0.00      0.00      0.00         1
+           home electronics furniture beauty books       0.00      0.00      0.00         1
+                  home electronics furniture books       0.00      0.00      0.00         1
+                    home electronics sports beauty       0.00      0.00      0.00         1
+              home electronics sports beauty books       0.00      0.00      0.00         1
+                                         home food       0.00      0.00      0.00         1
+                                   home food books       0.00      0.00      0.00         1
+                              home furniture books       0.00      0.00      0.00         1
+                               home furniture food       0.00      0.00      0.00         1
+                        home furniture food beauty       0.00      0.00      0.00         1
+                                       home sports       0.00      0.00      0.00         1
+                                home sports beauty       0.00      0.00      0.00         1
+                          home sports beauty books       0.00      0.00      0.00         1
+                                            sports       1.00      0.17      0.29         6
+                                      sports books       0.00      0.00      0.00         4
+                                   sports clothing       0.00      0.00      0.00         1
+                              sports clothing food       0.00      0.00      0.00         2
+                        sports clothing food books       0.00      0.00      0.00         1
+                                sports electronics       0.00      0.00      0.00         2
+                    sports electronics food beauty       0.00      0.00      0.00         1
+                                       sports food       0.00      0.00      0.00         2
+                                  sports furniture       0.00      0.00      0.00         1
+                     sports furniture beauty books       0.00      0.00      0.00         1
+             sports furniture clothing home beauty       0.00      0.00      0.00         1
+                             sports furniture home       0.00      0.00      0.00         2
+                       sports furniture home books       0.00      0.00      0.00         1
+                                       sports home       0.00      0.00      0.00         2
+                                          accuracy                           0.03       200
+                                         macro avg       0.01      0.01      0.00       200

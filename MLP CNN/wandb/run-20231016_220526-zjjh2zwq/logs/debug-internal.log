@@ -1,0 +1,135 @@
+2023-10-16 22:05:31,978 INFO    StreamThr :96538 [internal.py:wandb_internal():86] W&B internal server running at pid: 96538, started at: 2023-10-16 22:05:31.976317
+2023-10-16 22:05:31,980 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status
+2023-10-16 22:05:31,982 INFO    WriterThread:96538 [datastore.py:open_for_write():85] open: /Users/arygup/Desktop/A3/wandb/run-20231016_220526-zjjh2zwq/run-zjjh2zwq.wandb
+2023-10-16 22:05:31,985 DEBUG   SenderThread:96538 [sender.py:send():380] send: header
+2023-10-16 22:05:31,985 DEBUG   SenderThread:96538 [sender.py:send():380] send: run
+2023-10-16 22:05:32,836 INFO    SenderThread:96538 [dir_watcher.py:__init__():211] watching files in: /Users/arygup/Desktop/A3/wandb/run-20231016_220526-zjjh2zwq/files
+2023-10-16 22:05:32,836 INFO    SenderThread:96538 [sender.py:_start_run_threads():1122] run started: zjjh2zwq with start time 1697474131.122484
+2023-10-16 22:05:32,856 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: check_version
+2023-10-16 22:05:32,856 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: check_version
+2023-10-16 22:05:33,048 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: run_start
+2023-10-16 22:05:33,050 DEBUG   HandlerThread:96538 [system_info.py:__init__():32] System info init
+2023-10-16 22:05:33,050 DEBUG   HandlerThread:96538 [system_info.py:__init__():47] System info init done
+2023-10-16 22:05:33,050 INFO    HandlerThread:96538 [system_monitor.py:start():194] Starting system monitor
+2023-10-16 22:05:33,050 INFO    SystemMonitor:96538 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-16 22:05:33,050 INFO    HandlerThread:96538 [system_monitor.py:probe():214] Collecting system info
+2023-10-16 22:05:33,051 INFO    SystemMonitor:96538 [interfaces.py:start():190] Started cpu monitoring
+2023-10-16 22:05:33,051 DEBUG   HandlerThread:96538 [system_info.py:probe():196] Probing system
+2023-10-16 22:05:33,051 INFO    SystemMonitor:96538 [interfaces.py:start():190] Started disk monitoring
+2023-10-16 22:05:33,054 INFO    SystemMonitor:96538 [interfaces.py:start():190] Started gpuapple monitoring
+2023-10-16 22:05:33,060 INFO    SystemMonitor:96538 [interfaces.py:start():190] Started memory monitoring
+2023-10-16 22:05:33,060 INFO    SystemMonitor:96538 [interfaces.py:start():190] Started network monitoring
+2023-10-16 22:05:33,061 DEBUG   HandlerThread:96538 [gitlib.py:_init_repo():53] git repository is invalid
+2023-10-16 22:05:33,061 DEBUG   HandlerThread:96538 [system_info.py:probe():244] Probing system done
+2023-10-16 22:05:33,061 DEBUG   HandlerThread:96538 [system_monitor.py:probe():223] {'os': 'macOS-13.4.1-arm64-arm-64bit', 'python': '3.11.5', 'heartbeatAt': '2023-10-16T16:35:33.053885', 'startedAt': '2023-10-16T16:35:26.306461', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'Aryans-MacBook-Air.local', 'username': 'arygup', 'executable': '/Users/arygup/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 228.27386474609375, 'used': 167.38330078125}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2023-10-16 22:05:33,061 INFO    HandlerThread:96538 [system_monitor.py:probe():224] Finished collecting system info
+2023-10-16 22:05:33,061 INFO    HandlerThread:96538 [system_monitor.py:probe():227] Publishing system info
+2023-10-16 22:05:33,061 DEBUG   HandlerThread:96538 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-16 22:05:33,062 DEBUG   HandlerThread:96538 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-16 22:05:33,062 DEBUG   HandlerThread:96538 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-16 22:05:33,837 INFO    Thread-49 :96538 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arygup/Desktop/A3/wandb/run-20231016_220526-zjjh2zwq/files/conda-environment.yaml
+2023-10-16 22:05:33,837 INFO    Thread-49 :96538 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arygup/Desktop/A3/wandb/run-20231016_220526-zjjh2zwq/files/requirements.txt
+2023-10-16 22:05:36,110 DEBUG   HandlerThread:96538 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-16 22:05:36,110 INFO    HandlerThread:96538 [system_monitor.py:probe():229] Finished publishing system info
+2023-10-16 22:05:36,111 DEBUG   SenderThread:96538 [sender.py:send():380] send: files
+2023-10-16 22:05:36,111 INFO    SenderThread:96538 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-16 22:05:36,116 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 22:05:36,116 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 22:05:36,117 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 22:05:36,500 DEBUG   SenderThread:96538 [sender.py:send():380] send: telemetry
+2023-10-16 22:05:36,500 DEBUG   SenderThread:96538 [sender.py:send():380] send: telemetry
+2023-10-16 22:05:36,500 DEBUG   SenderThread:96538 [sender.py:send():380] send: config
+2023-10-16 22:05:36,849 INFO    Thread-49 :96538 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arygup/Desktop/A3/wandb/run-20231016_220526-zjjh2zwq/files/conda-environment.yaml
+2023-10-16 22:05:36,849 INFO    Thread-49 :96538 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arygup/Desktop/A3/wandb/run-20231016_220526-zjjh2zwq/files/wandb-metadata.json
+2023-10-16 22:05:37,245 INFO    wandb-upload_0:96538 [upload_job.py:push():131] Uploaded file /var/folders/vm/wmkh255j12x_ylgv2g4ltlhr0000gn/T/tmpqz2jnniywandb/iaqz4gd1-wandb-metadata.json
+2023-10-16 22:05:37,501 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:05:42,519 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:05:47,539 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:05:51,116 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 22:05:51,116 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 22:05:51,119 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 22:05:52,567 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:05:57,589 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:06:02,605 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:06:03,480 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-16 22:06:03,480 DEBUG   SenderThread:96538 [sender.py:send():380] send: history
+2023-10-16 22:06:03,480 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: summary_record
+2023-10-16 22:06:03,481 INFO    SenderThread:96538 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-16 22:06:03,960 INFO    Thread-49 :96538 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arygup/Desktop/A3/wandb/run-20231016_220526-zjjh2zwq/files/config.yaml
+2023-10-16 22:06:03,961 INFO    Thread-49 :96538 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arygup/Desktop/A3/wandb/run-20231016_220526-zjjh2zwq/files/wandb-summary.json
+2023-10-16 22:06:05,468 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: partial_history
+2023-10-16 22:06:05,468 DEBUG   SenderThread:96538 [sender.py:send():380] send: history
+2023-10-16 22:06:05,468 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: summary_record
+2023-10-16 22:06:05,469 INFO    SenderThread:96538 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-10-16 22:06:05,967 INFO    Thread-49 :96538 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arygup/Desktop/A3/wandb/run-20231016_220526-zjjh2zwq/files/wandb-summary.json
+2023-10-16 22:06:06,120 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 22:06:06,120 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 22:06:06,122 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 22:06:08,529 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:06:13,546 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:06:18,566 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:06:21,125 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 22:06:21,125 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 22:06:21,126 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 22:06:24,478 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:06:29,499 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:06:33,063 DEBUG   SystemMonitor:96538 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-16 22:06:33,066 DEBUG   SenderThread:96538 [sender.py:send():380] send: telemetry
+2023-10-16 22:06:33,066 DEBUG   SenderThread:96538 [sender.py:send():380] send: stats
+2023-10-16 22:06:35,078 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:06:36,096 INFO    Thread-49 :96538 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arygup/Desktop/A3/wandb/run-20231016_220526-zjjh2zwq/files/config.yaml
+2023-10-16 22:06:36,126 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 22:06:36,126 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 22:06:36,129 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 22:06:40,535 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:06:45,555 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:06:50,576 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:06:51,130 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 22:06:51,131 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 22:06:51,133 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 22:06:56,556 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:07:01,578 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:07:03,070 DEBUG   SenderThread:96538 [sender.py:send():380] send: stats
+2023-10-16 22:07:06,137 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 22:07:06,137 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 22:07:06,138 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 22:07:07,483 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:07:12,500 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:07:17,521 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:07:21,140 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 22:07:21,141 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 22:07:21,141 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 22:07:22,576 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:07:27,594 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:07:32,614 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:07:33,075 DEBUG   SenderThread:96538 [sender.py:send():380] send: stats
+2023-10-16 22:07:36,141 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 22:07:36,141 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 22:07:36,144 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 22:07:37,632 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:07:42,646 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:07:47,669 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:07:51,142 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 22:07:51,143 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 22:07:51,148 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 22:07:53,478 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:07:58,497 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:08:03,079 DEBUG   SenderThread:96538 [sender.py:send():380] send: stats
+2023-10-16 22:08:03,358 ERROR   FileStreamThread:96538 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/smaia3/Q4/zjjh2zwq/file_stream
+NoneType: None
+2023-10-16 22:08:03,476 INFO    Thread-49 :96538 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arygup/Desktop/A3/wandb/run-20231016_220526-zjjh2zwq/files/output.log
+2023-10-16 22:08:04,369 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:08:05,485 INFO    Thread-49 :96538 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arygup/Desktop/A3/wandb/run-20231016_220526-zjjh2zwq/files/output.log
+2023-10-16 22:08:06,144 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 22:08:06,146 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 22:08:06,152 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 22:08:09,541 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:08:14,560 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:08:15,668 ERROR   FileStreamThread:96538 [file_stream.py:_handle_response():504] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/smaia3/Q4/zjjh2zwq/file_stream
+NoneType: None
+2023-10-16 22:08:17,541 INFO    Thread-49 :96538 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arygup/Desktop/A3/wandb/run-20231016_220526-zjjh2zwq/files/output.log
+2023-10-16 22:08:19,685 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report
+2023-10-16 22:08:21,148 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-16 22:08:21,148 DEBUG   SenderThread:96538 [sender.py:send_request():407] send_request: stop_status
+2023-10-16 22:08:21,156 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-16 22:08:25,491 DEBUG   HandlerThread:96538 [handler.py:handle_request():146] handle_request: status_report

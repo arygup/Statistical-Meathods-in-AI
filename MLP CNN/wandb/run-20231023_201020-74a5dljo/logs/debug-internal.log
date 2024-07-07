@@ -1,0 +1,74 @@
+2023-10-23 20:10:26,539 INFO    StreamThr :51331 [internal.py:wandb_internal():86] W&B internal server running at pid: 51331, started at: 2023-10-23 20:10:26.538052
+2023-10-23 20:10:26,540 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status
+2023-10-23 20:10:26,541 INFO    WriterThread:51331 [datastore.py:open_for_write():85] open: /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/run-20231023_201020-74a5dljo/run-74a5dljo.wandb
+2023-10-23 20:10:26,542 DEBUG   SenderThread:51331 [sender.py:send():380] send: header
+2023-10-23 20:10:26,542 DEBUG   SenderThread:51331 [sender.py:send():380] send: run
+2023-10-23 20:10:27,789 INFO    SenderThread:51331 [dir_watcher.py:__init__():211] watching files in: /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/run-20231023_201020-74a5dljo/files
+2023-10-23 20:10:27,789 INFO    SenderThread:51331 [sender.py:_start_run_threads():1122] run started: 74a5dljo with start time 1698072025.68142
+2023-10-23 20:10:27,801 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: check_version
+2023-10-23 20:10:27,801 DEBUG   SenderThread:51331 [sender.py:send_request():407] send_request: check_version
+2023-10-23 20:10:27,924 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: run_start
+2023-10-23 20:10:27,927 DEBUG   HandlerThread:51331 [system_info.py:__init__():32] System info init
+2023-10-23 20:10:27,927 DEBUG   HandlerThread:51331 [system_info.py:__init__():47] System info init done
+2023-10-23 20:10:27,927 INFO    HandlerThread:51331 [system_monitor.py:start():194] Starting system monitor
+2023-10-23 20:10:27,927 INFO    SystemMonitor:51331 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-10-23 20:10:27,927 INFO    HandlerThread:51331 [system_monitor.py:probe():214] Collecting system info
+2023-10-23 20:10:27,928 INFO    SystemMonitor:51331 [interfaces.py:start():190] Started cpu monitoring
+2023-10-23 20:10:27,928 DEBUG   HandlerThread:51331 [system_info.py:probe():196] Probing system
+2023-10-23 20:10:27,928 INFO    SystemMonitor:51331 [interfaces.py:start():190] Started disk monitoring
+2023-10-23 20:10:27,929 INFO    SystemMonitor:51331 [interfaces.py:start():190] Started gpuapple monitoring
+2023-10-23 20:10:27,931 INFO    SystemMonitor:51331 [interfaces.py:start():190] Started memory monitoring
+2023-10-23 20:10:27,932 INFO    SystemMonitor:51331 [interfaces.py:start():190] Started network monitoring
+2023-10-23 20:10:27,933 DEBUG   HandlerThread:51331 [system_info.py:_probe_git():181] Probing git
+2023-10-23 20:10:27,950 DEBUG   HandlerThread:51331 [system_info.py:_probe_git():189] Probing git done
+2023-10-23 20:10:27,950 DEBUG   HandlerThread:51331 [system_info.py:probe():244] Probing system done
+2023-10-23 20:10:27,950 DEBUG   HandlerThread:51331 [system_monitor.py:probe():223] {'os': 'macOS-13.4.1-arm64-arm-64bit', 'python': '3.11.5', 'heartbeatAt': '2023-10-23T14:40:27.928235', 'startedAt': '2023-10-23T14:40:20.308455', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/Statistical-Methods-in-AI-Monsoon-2023/assignment-3-arygup.git', 'commit': '6471914e563ec2836f2b664e6b19afe38e15cb3a'}, 'email': 'aryan.g@research.iiit.ac.in', 'root': '/Users/arygup/Documents/GitHub/assignment-3-arygup', 'host': 'Aryans-MacBook-Air.local', 'username': 'arygup', 'executable': '/Users/arygup/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 228.27386474609375, 'used': 172.64937591552734}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2023-10-23 20:10:27,950 INFO    HandlerThread:51331 [system_monitor.py:probe():224] Finished collecting system info
+2023-10-23 20:10:27,950 INFO    HandlerThread:51331 [system_monitor.py:probe():227] Publishing system info
+2023-10-23 20:10:27,950 DEBUG   HandlerThread:51331 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-10-23 20:10:27,951 DEBUG   HandlerThread:51331 [system_info.py:_save_pip():68] Saving pip packages done
+2023-10-23 20:10:27,951 DEBUG   HandlerThread:51331 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-10-23 20:10:28,794 INFO    Thread-145:51331 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/run-20231023_201020-74a5dljo/files/requirements.txt
+2023-10-23 20:10:28,795 INFO    Thread-145:51331 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/run-20231023_201020-74a5dljo/files/conda-environment.yaml
+2023-10-23 20:10:31,112 DEBUG   HandlerThread:51331 [system_info.py:_save_conda():87] Saving conda packages done
+2023-10-23 20:10:31,112 INFO    HandlerThread:51331 [system_monitor.py:probe():229] Finished publishing system info
+2023-10-23 20:10:31,113 DEBUG   SenderThread:51331 [sender.py:send():380] send: files
+2023-10-23 20:10:31,113 INFO    SenderThread:51331 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-10-23 20:10:31,120 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 20:10:31,121 DEBUG   SenderThread:51331 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 20:10:31,121 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 20:10:31,538 DEBUG   SenderThread:51331 [sender.py:send():380] send: telemetry
+2023-10-23 20:10:31,805 INFO    Thread-145:51331 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/run-20231023_201020-74a5dljo/files/conda-environment.yaml
+2023-10-23 20:10:31,805 INFO    Thread-145:51331 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/run-20231023_201020-74a5dljo/files/wandb-metadata.json
+2023-10-23 20:10:32,539 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 20:10:32,945 INFO    wandb-upload_0:51331 [upload_job.py:push():131] Uploaded file /var/folders/vm/wmkh255j12x_ylgv2g4ltlhr0000gn/T/tmp294lcmu3wandb/egp8fff2-wandb-metadata.json
+2023-10-23 20:10:37,558 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 20:10:42,592 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 20:10:46,122 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 20:10:46,125 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 20:10:46,125 DEBUG   SenderThread:51331 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 20:10:48,483 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 20:10:53,506 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 20:10:58,531 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 20:10:59,946 INFO    Thread-145:51331 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/run-20231023_201020-74a5dljo/files/config.yaml
+2023-10-23 20:11:01,127 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 20:11:01,130 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 20:11:01,130 DEBUG   SenderThread:51331 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 20:11:04,527 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 20:11:09,546 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 20:11:14,564 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 20:11:16,131 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 20:11:16,135 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 20:11:16,136 DEBUG   SenderThread:51331 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 20:11:19,580 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 20:11:24,602 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 20:11:27,936 DEBUG   SystemMonitor:51331 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-10-23 20:11:27,939 DEBUG   SenderThread:51331 [sender.py:send():380] send: telemetry
+2023-10-23 20:11:27,939 DEBUG   SenderThread:51331 [sender.py:send():380] send: stats
+2023-10-23 20:11:29,951 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 20:11:31,101 INFO    Thread-145:51331 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/arygup/Documents/GitHub/assignment-3-arygup/A3/wandb/run-20231023_201020-74a5dljo/files/config.yaml
+2023-10-23 20:11:31,137 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: internal_messages
+2023-10-23 20:11:31,140 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: stop_status
+2023-10-23 20:11:31,140 DEBUG   SenderThread:51331 [sender.py:send_request():407] send_request: stop_status
+2023-10-23 20:11:35,463 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status_report
+2023-10-23 20:11:40,489 DEBUG   HandlerThread:51331 [handler.py:handle_request():146] handle_request: status_report
