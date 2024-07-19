@@ -1,6 +1,7 @@
 # From-Scratch Development of Various Models and Techniques
 
-This document aims to provide a comprehensive guide on the essential aspects of these models, including data preprocessing, model building, training, and evaluation. Used the Wine Quality Dataset and Boston Housing Dataset for classification and regression tasks, respectively. Additionally, the MNIST dataset was used for image classification tasks.
+This document aims to provide a comprehensive guide on the aspects of these from scratch models, including data preprocessing, model building, training, and evaluation. 
+Used the Wine Quality Dataset and Boston Housing Dataset for classification and regression tasks, respectively. Additionally, the MNIST dataset was used for image classification tasks.
 
 ## Table of Contents
 
