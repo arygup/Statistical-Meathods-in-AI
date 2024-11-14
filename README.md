@@ -169,3 +169,5 @@ Used the Wine Quality Dataset and Boston Housing Dataset for classification and 
    - Train the best CNN model on the de-noised dataset.
    - Compare the performance with the noisy dataset results.
 
+
+### Kindly Refer to reports within sub-folders for Parameter Efficient Fine Tuning, Quantization & Transformer
